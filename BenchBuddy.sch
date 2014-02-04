@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:MyComponents
 LIBS:BenchBuddy-cache
 EELAYER 24 0
 EELAYER END
@@ -99,6 +100,12 @@ F4 "String+" O R 8900 2550 60
 F5 "String-" I R 8900 2850 60 
 $EndSheet
 $Sheet
+S 9400 800  1450 5300
+U 52EA3891
+F0 "Terminal_Block" 50
+F1 "Terminal_Block.sch" 50
+$EndSheet
+$Sheet
 S 6750 800  2150 1100
 U 52EA3640
 F0 "Fan" 50
@@ -106,13 +113,12 @@ F1 "Fan.sch" 50
 F2 "Power+" O R 8900 1000 60 
 F3 "Power-" I R 8900 1150 60 
 F4 "Tach_In" I R 8900 1300 60 
-F5 "Tach_Out" O L 6750 1250 60 
-F6 "Fan_In" I L 6750 1050 60 
-$EndSheet
-$Sheet
-S 9400 800  1450 5300
-U 52EA3891
-F0 "Terminal_Block" 50
-F1 "Terminal_Block.sch" 50
+F5 "Tach_Out" O L 6750 1750 60 
+F6 "Fan_In" I L 6750 900 60 
+F7 "MISO" O L 6750 1100 60 
+F8 "MOSI" I L 6750 1200 60 
+F9 "SCLK" I L 6750 1300 60 
+F10 "CS_N" I L 6750 1400 60 
+F11 "Current_Measure" O L 6750 1600 60 
 $EndSheet
 $EndSCHEMATC
