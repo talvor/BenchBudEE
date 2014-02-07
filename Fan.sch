@@ -30,12 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MyComponents
+LIBS:arduino_shieldsNCL
 LIBS:BenchBuddy-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 9 9
 Title ""
 Date ""
 Rev ""
@@ -46,15 +47,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 9500 2750 2    60   Output ~ 0
-Power+
-Text HLabel 9500 3050 2    60   Input ~ 0
-Power-
+FAN_OUT+
+Text HLabel 9500 3050 2    60   Output ~ 0
+FAN_OUT-
 Text HLabel 10250 5150 2    60   Input ~ 0
-Tach_In
+TACH_IN
 Text HLabel 1700 5150 0    60   Output ~ 0
-Tach_Out
+TACH_MEAS
 Text HLabel 1750 3350 0    60   Input ~ 0
-Fan_In
+FAN_EN_N
 Wire Wire Line
 	1700 5150 10250 5150
 $Comp
@@ -219,7 +220,7 @@ SCLK
 Text HLabel 1900 2250 0    60   Input ~ 0
 CS_N
 Text HLabel 1750 3700 0    60   Output ~ 0
-Current_Measure
+CURR_MEAS
 $Comp
 L R R?
 U 1 1 52F15DC9

@@ -30,12 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MyComponents
+LIBS:arduino_shieldsNCL
 LIBS:BenchBuddy-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 7 9
 Title ""
 Date ""
 Rev ""
@@ -46,13 +47,13 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 4200 3100 0    60   Input ~ 0
-DIN+
+RELAY+
 Text HLabel 4200 3450 0    60   Output ~ 0
-DIN-
+RELAY-
 Text HLabel 10500 2100 2    60   BiDi ~ 0
-NC
+RELAY_NC
 Text HLabel 10500 2300 2    60   BiDi ~ 0
-NO
+RELAY_NO
 $Comp
 L RELAY_SPDT K?
 U 1 1 52F1DB37
@@ -109,7 +110,7 @@ F 3 "" H 7100 4000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 10500 1650 2    60   BiDi ~ 0
-COM
+RELAY_COM
 Wire Wire Line
 	10500 1650 8600 1650
 Wire Wire Line

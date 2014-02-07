@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MyComponents
+LIBS:arduino_shieldsNCL
 LIBS:BenchBuddy-cache
 EELAYER 24 0
 EELAYER END
@@ -48,9 +49,9 @@ $EndDescr
 Text HLabel 4400 3350 0    60   Input ~ 0
 LED_EN_PWM
 Text HLabel 8500 2100 2    60   Output ~ 0
-String+
-Text HLabel 8550 3500 2    60   Input ~ 0
-String-
+LED_STRING+
+Text HLabel 8550 3500 2    60   Output ~ 0
+LED_STRING-
 $Comp
 L AP5726 U?
 U 1 1 52F43ADC
