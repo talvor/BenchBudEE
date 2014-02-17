@@ -13,12 +13,6 @@
   )
 
   (page A4)
-  (title_block
-    (title BenchBudEE)
-    (rev A)
-    (company "Contextual Electronics")
-  )
-
   (layers
     (15 F.Cu signal)
     (2 PWR power)
@@ -61,8 +55,7 @@
     (mod_text_width 0.15)
     (pad_size 1.5 1.5)
     (pad_drill 0.6)
-    (pad_to_mask_clearance 0.254)
-    (solder_mask_min_width 0.127)
+    (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
@@ -105,9 +98,9 @@
     (add_net "")
   )
 
-  (gr_line (start 63.5 55.88) (end 63.5 119.38) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 228.6 55.88) (end 63.5 55.88) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 228.6 119.38) (end 228.6 55.88) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 63.5 119.38) (end 228.6 119.38) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 73.66 50.8) (end 73.66 114.3) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 238.76 50.8) (end 73.66 50.8) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 238.76 114.3) (end 238.76 50.8) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 73.66 114.3) (end 238.76 114.3) (angle 90) (layer Edge.Cuts) (width 0.1))
 
 )
