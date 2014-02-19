@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-12 BZR 4693)-product date = Wed 19 Feb 2014 12:43:56 PM EST
+Cmp-Mod V01 Created by CvPcb (2014-02-12 BZR 4693)-product date = Wed 19 Feb 2014 10:02:32 PM EST
 
 BeginCmp
 TimeStamp = /52EA3553/52F04386;
 Reference = C1;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
@@ -36,10 +36,31 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EA3553/52F049D1;
-Reference = D1;
-ValeurCmp = ZENER;
-IdModule  = ;
+TimeStamp = /52EA3553/53048151;
+Reference = C6;
+ValeurCmp = C;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA3553/53047D82;
+Reference = C7;
+ValeurCmp = C;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA3553/530465BF;
+Reference = C8;
+ValeurCmp = C;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA3553/530464FC;
+Reference = C9;
+ValeurCmp = C;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
@@ -124,6 +145,20 @@ TimeStamp = /52EA35B5/52F2195D;
 Reference = P1;
 ValeurCmp = CONN_12X2;
 IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA3553/53045AA4;
+Reference = P2;
+ValeurCmp = CONN_3X2;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA3553/5304F8AA;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -263,49 +298,49 @@ BeginCmp
 TimeStamp = /52EA3553/52F0443F;
 Reference = R16;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SMD_Packages:SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA3553/52F0445A;
 Reference = R17;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SMD_Packages:SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA3553/52F04434;
 Reference = R18;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SMD_Packages:SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA3553/52F0444A;
 Reference = R19;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SMD_Packages:SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA3553/52F0439A;
 Reference = R20;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA3553/52F043AC;
 Reference = R21;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA3553/52F043B7;
 Reference = R22;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
@@ -449,6 +484,48 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
+TimeStamp = /52EA3553/53045A8C;
+Reference = R43;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA3553/53045A97;
+Reference = R44;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA34C7/5304E3AE;
+Reference = R45;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA34C7/5304E3B7;
+Reference = R46;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA3553/53049B16;
+Reference = R47;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA3553/53049979;
+Reference = R48;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /52EA34C7/52F47B3E;
 Reference = SHIELD1;
 ValeurCmp = ARDUINO_SHIELD;
@@ -498,24 +575,24 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EA3553/52F047C9;
+TimeStamp = /52EA3553/53045857;
 Reference = U1;
-ValeurCmp = MCP3550-50-E/MS;
-IdModule  = ;
+ValeurCmp = MCP3901;
+IdModule  = SMD_Packages:SSOP20;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA3553/52F04340;
 Reference = U2;
-ValeurCmp = LM324;
-IdModule  = ;
+ValeurCmp = OPA4170;
+IdModule  = SOIC_Packages:SOIC-14_Narrow;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EA3553/52F049BA;
+TimeStamp = /52EA3553/53046289;
 Reference = U3;
-ValeurCmp = MCP3550-50-E/MS;
-IdModule  = ;
+ValeurCmp = LMT84;
+IdModule  = SMD_Packages:SOT353;
 EndCmp
 
 BeginCmp

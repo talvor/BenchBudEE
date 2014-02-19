@@ -1,6 +1,6 @@
-update=Fri 07 Feb 2014 12:48:38 PM EST
+update=Wed 19 Feb 2014 10:34:10 PM EST
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -43,8 +43,6 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -89,3 +87,6 @@ LibName29=contrib
 LibName30=valves
 LibName31=MyComponents
 LibName32=Arduino_Shield/arduino_shieldsNCL
+LibName33=BenchBudEE
+[general]
+version=1

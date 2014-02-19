@@ -31,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:MyComponents
 LIBS:arduino_shieldsNCL
+LIBS:BenchBudEE
 LIBS:BenchBuddy-cache
 EELAYER 24 0
 EELAYER END
@@ -57,7 +58,7 @@ MISO
 Text HLabel 7600 3550 2    60   Output ~ 0
 SCLK
 Text HLabel 7600 4250 2    60   Output ~ 0
-DAC_CS_N
+~DAC_CS
 Text HLabel 7600 3950 2    60   Output ~ 0
 LED_EN_PWM
 Text HLabel 7600 3850 2    60   Output ~ 0
@@ -288,7 +289,7 @@ $EndComp
 Wire Wire Line
 	6800 4050 6450 4050
 Text HLabel 7600 4050 2    60   Output ~ 0
-ADC_CS_N
+~ADC_CS
 Wire Wire Line
 	7600 4050 7300 4050
 Text HLabel 7600 4950 2    60   Output ~ 0
@@ -336,4 +337,38 @@ F 3 "" H 3500 3900 60  0000 C CNN
 	1    3500 3900
 	1    0    0    -1  
 $EndComp
+Text HLabel 7600 4450 2    60   Output ~ 0
+~RESET
+$Comp
+L R R45
+U 1 1 5304E3AE
+P 7050 4450
+F 0 "R45" V 7050 4550 40  0000 C CNN
+F 1 "R" V 7057 4451 40  0000 C CNN
+F 2 "" V 6980 4450 30  0000 C CNN
+F 3 "" H 7050 4450 30  0000 C CNN
+	1    7050 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 4450 7300 4450
+Wire Wire Line
+	6800 4450 6450 4450
+Text HLabel 7600 4550 2    60   Output ~ 0
+~DR
+$Comp
+L R R46
+U 1 1 5304E3B7
+P 7050 4550
+F 0 "R46" V 7050 4650 40  0000 C CNN
+F 1 "R" V 7057 4551 40  0000 C CNN
+F 2 "" V 6980 4550 30  0000 C CNN
+F 3 "" H 7050 4550 30  0000 C CNN
+	1    7050 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 4550 7300 4550
+Wire Wire Line
+	6800 4550 6450 4550
 $EndSCHEMATC
