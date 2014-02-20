@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-12 BZR 4693)-product date = Wed 19 Feb 2014 10:02:32 PM EST
+Cmp-Mod V01 Created by CvPcb (2014-02-19 BZR 4706)-product date = Thu 20 Feb 2014 01:50:15 PM EST
 
 BeginCmp
 TimeStamp = /52EA3553/52F04386;
@@ -143,8 +143,8 @@ EndCmp
 BeginCmp
 TimeStamp = /52EA35B5/52F2195D;
 Reference = P1;
-ValeurCmp = CONN_12X2;
-IdModule  = ;
+ValeurCmp = 24 pin MiniFit JR;
+IdModule  = BenchBudEE:ATX_HEADER;
 EndCmp
 
 BeginCmp
@@ -159,6 +159,20 @@ TimeStamp = /52EA3553/5304F8AA;
 Reference = P3;
 ValeurCmp = CONN_2;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA3891/53056460;
+Reference = P4;
+ValeurCmp = 12 pin Terminal Block;
+IdModule  = BenchBudEE:12_Pin_3.5mm_TB;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA3891/5305685C;
+Reference = P5;
+ValeurCmp = 3 Pin TB;
+IdModule  = BenchBudEE:3_Pin_5mm_TB;
 EndCmp
 
 BeginCmp
@@ -514,14 +528,14 @@ EndCmp
 BeginCmp
 TimeStamp = /52EA3553/53049B16;
 Reference = R47;
-ValeurCmp = R;
+ValeurCmp = 0;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA3553/53049979;
 Reference = R48;
-ValeurCmp = R;
+ValeurCmp = 0;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
