@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-19 BZR 4706)-product date = Thu 20 Feb 2014 01:50:15 PM EST
+Cmp-Mod V01 Created by CvPcb (2014-02-19 BZR 4706)-product date = Fri 21 Feb 2014 01:10:50 PM EST
+
+BeginCmp
+TimeStamp = /52EA34C7/52F47B3E;
+Reference = Arduino1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = Arduino:ARDUINO_SHIELD;
+EndCmp
 
 BeginCmp
 TimeStamp = /52EA3553/52F04386;
@@ -207,105 +214,105 @@ BeginCmp
 TimeStamp = /52EA34C7/52F870EF;
 Reference = R1;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/52F493DE;
 Reference = R2;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/52F493D3;
 Reference = R3;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/52F49390;
 Reference = R4;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/52F49385;
 Reference = R5;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/52F4946F;
 Reference = R6;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/52F49464;
 Reference = R7;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/52F4944F;
 Reference = R8;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/52F48765;
 Reference = R9;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/52F4956B;
 Reference = R10;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/52F4E7B6;
 Reference = R11;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/52F49444;
 Reference = R12;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/52F48790;
 Reference = R13;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/52F86CE8;
 Reference = R14;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/52F49526;
 Reference = R15;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
@@ -515,14 +522,14 @@ BeginCmp
 TimeStamp = /52EA34C7/5304E3AE;
 Reference = R45;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA34C7/5304E3B7;
 Reference = R46;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
@@ -540,10 +547,24 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52EA34C7/52F47B3E;
-Reference = SHIELD1;
-ValeurCmp = ARDUINO_SHIELD;
-IdModule  = ;
+TimeStamp = /52EA34C7/5306C028;
+Reference = R49;
+ValeurCmp = R;
+IdModule  = BenchBudEE:SM0805-Bridge;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA34C7/5306C01D;
+Reference = R50;
+ValeurCmp = R;
+IdModule  = BenchBudEE:SM0805-Bridge;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA34C7/5306C012;
+Reference = R51;
+ValeurCmp = R;
+IdModule  = BenchBudEE:SM0805-Bridge;
 EndCmp
 
 BeginCmp
