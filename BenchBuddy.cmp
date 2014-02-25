@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-19 BZR 4706)-product date = Mon 24 Feb 2014 01:47:07 PM EST
+Cmp-Mod V01 Created by CvPcb (2014-02-19 BZR 4706)-product date = Mon 24 Feb 2014 08:22:26 PM EST
 
 BeginCmp
 TimeStamp = /52EA34C7/52F47B3E;
@@ -18,14 +18,14 @@ BeginCmp
 TimeStamp = /52EA35B5/52F22ADD;
 Reference = C2;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = SMD_Packages:SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA35B5/52F22AEF;
 Reference = C3;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = SMD_Packages:SM1206;
 EndCmp
 
 BeginCmp
@@ -82,6 +82,13 @@ TimeStamp = /52EA3640/530B51B3;
 Reference = C11;
 ValeurCmp = C;
 IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA35B5/530B110B;
+Reference = C12;
+ValeurCmp = C;
+IdModule  = SMD_Packages:SM1206;
 EndCmp
 
 BeginCmp
@@ -143,15 +150,15 @@ EndCmp
 BeginCmp
 TimeStamp = /52EA35B5/52F22AA5;
 Reference = L1;
-ValeurCmp = INDUCTOR;
-IdModule  = ;
+ValeurCmp = 22uH;
+IdModule  = SMD_Packages:SM1210L;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA35B5/52F22AC6;
 Reference = L2;
-ValeurCmp = INDUCTOR;
-IdModule  = ;
+ValeurCmp = 22uH;
+IdModule  = SMD_Packages:SM1210L;
 EndCmp
 
 BeginCmp
@@ -159,6 +166,13 @@ TimeStamp = /52EA35F8/52F43DA7;
 Reference = L3;
 ValeurCmp = INDUCTOR;
 IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /52EA35B5/530B1105;
+Reference = L4;
+ValeurCmp = 22uH;
+IdModule  = SMD_Packages:SM1210L;
 EndCmp
 
 BeginCmp
@@ -382,7 +396,7 @@ BeginCmp
 TimeStamp = /52EA35B5/52F2286F;
 Reference = R23;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
@@ -598,36 +612,36 @@ EndCmp
 BeginCmp
 TimeStamp = /52EA35B5/52F2236E;
 Reference = SW1;
-ValeurCmp = SWITCH_INV;
-IdModule  = ;
+ValeurCmp = SWITCH SLIDE SPDT;
+IdModule  = BenchBudEE:SLIDE_SWITCH_SPDT;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA35B5/52F839EB;
 Reference = TH1;
-ValeurCmp = THERMISTOR;
-IdModule  = ;
+ValeurCmp = PTC;
+IdModule  = SMD_Packages:SM1812;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA35B5/52F83A04;
 Reference = TH2;
-ValeurCmp = THERMISTOR;
-IdModule  = ;
+ValeurCmp = PTC;
+IdModule  = SMD_Packages:SM1812;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA35B5/52F83A18;
 Reference = TH3;
-ValeurCmp = THERMISTOR;
-IdModule  = ;
+ValeurCmp = PTC;
+IdModule  = SMD_Packages:SM1812;
 EndCmp
 
 BeginCmp
 TimeStamp = /52EA35B5/52F83A2C;
 Reference = TH4;
-ValeurCmp = THERMISTOR;
-IdModule  = ;
+ValeurCmp = PTC;
+IdModule  = SMD_Packages:SM1812;
 EndCmp
 
 BeginCmp
