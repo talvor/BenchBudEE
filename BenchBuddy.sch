@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:BenchBuddy
+LIBS:arduino_shieldsNCL
 LIBS:BenchBuddy-cache
 EELAYER 24 0
 EELAYER END

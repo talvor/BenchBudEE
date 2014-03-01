@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-24 BZR 4719)-product date = Thu 27 Feb 2014 08:30:27 PM EST
+Cmp-Mod V01 Created by CvPcb (2014-02-24 BZR 4719)-product date = Fri 28 Feb 2014 11:27:46 PM EST
 
 BeginCmp
-TimeStamp = /522FEA6C/5251D4C8;
+TimeStamp = /522FEA6C/530F24DD;
 Reference = ARD1;
 ValeurCmp = ARDUINOPINS;
-IdModule  = Arduino:ARDUINO_SHIELD;
+IdModule  = BenchBudEE:ARDUINO_SHIELD;
 EndCmp
 
 BeginCmp
@@ -270,7 +270,7 @@ BeginCmp
 TimeStamp = /523DF54E/523E08BF;
 Reference = JP1;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x01;
 EndCmp
 
 BeginCmp
@@ -837,7 +837,7 @@ BeginCmp
 TimeStamp = /523DF54E/525F4568;
 Reference = U6;
 ValeurCmp = LM337T;
-IdModule  = Transistors_TO-220:TO-220_Neutral123_Horizontal;
+IdModule  = Power_Integrations:TO-220;
 EndCmp
 
 BeginCmp
@@ -851,21 +851,21 @@ BeginCmp
 TimeStamp = /523DF54E/525F4380;
 Reference = U8;
 ValeurCmp = LM337T;
-IdModule  = Transistors_TO-220:TO-220_Neutral123_Horizontal;
+IdModule  = Power_Integrations:TO-220;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/525F3FCD;
+TimeStamp = /523DF54E/530F1D30;
 Reference = U9;
-ValeurCmp = LM317;
-IdModule  = Transistors_TO-220:TO-220_Neutral123_Horizontal;
+ValeurCmp = LM317T;
+IdModule  = Power_Integrations:TO-220;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/523E0B74;
+TimeStamp = /523DF54E/530F1CBE;
 Reference = U11;
-ValeurCmp = LM317;
-IdModule  = Transistors_TO-220:TO-220_Neutral123_Horizontal;
+ValeurCmp = LM317T;
+IdModule  = Power_Integrations:TO-220;
 EndCmp
 
 EndListe
