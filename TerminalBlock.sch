@@ -162,7 +162,7 @@ Wire Wire Line
 Wire Wire Line
 	4525 1700 5500 1700
 Wire Wire Line
-	4700 1600 5500 1600
+	4150 1600 5500 1600
 Wire Wire Line
 	5500 1300 5300 1300
 Wire Wire Line
@@ -181,6 +181,17 @@ Text Label 4500 1800 2    60   ~ 0
 3v3
 Text Label 4525 1700 2    60   ~ 0
 5v
-Text Label 4700 1600 2    60   ~ 0
-GND
+$Comp
+L GND_PWR #PWR041
+U 1 1 5314831E
+P 4150 1650
+F 0 "#PWR041" H 4150 1650 30  0001 C CNN
+F 1 "GND_PWR" H 4150 1580 30  0000 C CNN
+F 2 "" H 4150 1650 60  0000 C CNN
+F 3 "" H 4150 1650 60  0000 C CNN
+	1    4150 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1650 4150 1600
 $EndSCHEMATC
