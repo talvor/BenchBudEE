@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 2  date 11/10/2013 9:27:17 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,15 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:BenchBuddy
-LIBS:arduino_shieldsNCL
 LIBS:BenchBuddy-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
 Title ""
-Date "2 nov 2013"
+Date "11 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -156,10 +155,10 @@ F 3 "~" H 6450 2050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12P #PWR019
+L +12P #PWR23
 U 1 1 523BA00D
 P 6450 1450
-F 0 "#PWR019" H 6450 1420 30  0001 C CNN
+F 0 "#PWR23" H 6450 1420 30  0001 C CNN
 F 1 "+12P" H 6450 1550 30  0000 C CNN
 F 2 "" H 6450 1450 60  0000 C CNN
 F 3 "" H 6450 1450 60  0000 C CNN
@@ -260,13 +259,13 @@ Wire Wire Line
 	8100 1550 6450 1550
 Connection ~ 6450 1550
 $Comp
-L GND_RELAY #PWR020
-U 1 1 5313E55E
+L GND_RELAY #PWR24
+U 1 1 527CF70A
 P 8800 5650
-F 0 "#PWR020" H 8800 5650 30  0001 C CNN
+F 0 "#PWR24" H 8800 5650 30  0001 C CNN
 F 1 "GND_RELAY" H 8800 5580 30  0000 C CNN
-F 2 "" H 8800 5650 60  0000 C CNN
-F 3 "" H 8800 5650 60  0000 C CNN
+F 2 "~" H 8800 5650 60  0000 C CNN
+F 3 "~" H 8800 5650 60  0000 C CNN
 	1    8800 5650
 	1    0    0    -1  
 $EndComp

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-24 BZR 4719)-product date = Mon 03 Mar 2014 11:20:40 PM EST
+Cmp-Mod V01 Created by CvPcb (2014-02-24 BZR 4719)-product date = Tue 04 Mar 2014 12:32:29 PM EST
 
 BeginCmp
 TimeStamp = /522FEA6C/530F24DD;
@@ -267,6 +267,34 @@ IdModule  = BenchBudEE:Diode_SOT23;
 EndCmp
 
 BeginCmp
+TimeStamp = /522FEADB/5314EE5A;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEADB/5314EE6C;
+Reference = JP2;
+ValeurCmp = JUMPER;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEADB/5314EE77;
+Reference = JP3;
+ValeurCmp = JUMPER;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEADB/5314EE82;
+Reference = JP4;
+ValeurCmp = JUMPER;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
 TimeStamp = /522FEAC6/523B9EF8;
 Reference = K1;
 ValeurCmp = 1461069-5;
@@ -368,126 +396,126 @@ BeginCmp
 TimeStamp = /522FEAC6/523BA070;
 Reference = R1;
 ValeurCmp = 500;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEAC6/523B9FD6;
 Reference = R2;
 ValeurCmp = 200;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEAC6/523BA005;
 Reference = R3;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEAC6/523B9943;
 Reference = R4;
 ValeurCmp = 100;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEAC6/52561128;
 Reference = R5;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEAC6/523B9FA5;
 Reference = R6;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEABA/5236445B;
 Reference = R7;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD1206_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD1206_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEABA/52364455;
 Reference = R8;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD1206_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD1206_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEABA/5236444F;
 Reference = R9;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD1206_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD1206_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEABA/52364461;
 Reference = R10;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD1206_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD1206_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEABA/5236440B;
 Reference = R11;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEABA/52364427;
 Reference = R12;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEABA/5236442D;
 Reference = R13;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEADB/523E08CC;
 Reference = R14;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEB24/52369992;
 Reference = R15;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEB24/523697E7;
 Reference = R16;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD1206_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD1206_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEB12/523F5E65;
 Reference = R17;
 ValeurCmp = 15;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/525F4570;
 Reference = R18;
 ValeurCmp = 715;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
@@ -508,35 +536,35 @@ BeginCmp
 TimeStamp = /523DF54E/523E0B81;
 Reference = R21;
 ValeurCmp = 715;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/523E1074;
 Reference = R22;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/523E107A;
 Reference = R23;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/523E114C;
 Reference = R24;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/523E1152;
 Reference = R25;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
@@ -662,21 +690,21 @@ BeginCmp
 TimeStamp = /522FEA6C/52402DDB;
 Reference = R43;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEABA/5257827B;
 Reference = R44;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEABA/5257828B;
 Reference = R45;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
@@ -697,14 +725,14 @@ BeginCmp
 TimeStamp = /522FEABA/525794CD;
 Reference = R48;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEABA/5257936D;
 Reference = R49;
 ValeurCmp = 0;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
@@ -725,28 +753,28 @@ BeginCmp
 TimeStamp = /523DF54E/525F4459;
 Reference = R52;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/525F4462;
 Reference = R53;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/525F3FF2;
 Reference = R54;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/525F3FD3;
 Reference = R55;
 ValeurCmp = R;
-IdModule  = Resistors_SMD:Resistor_SMD0805_HandSoldering;
+IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
@@ -795,7 +823,7 @@ BeginCmp
 TimeStamp = /522FEADB/53148E2B;
 Reference = TP1;
 ValeurCmp = CONN_1;
-IdModule  = Measurement_Points:Measurement_Point_Square-TH_Big;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
 EndCmp
 
 BeginCmp
