@@ -1,7 +1,7 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-24 BZR 4719)-product date = Tue 04 Mar 2014 12:32:29 PM EST
+Cmp-Mod V01 Created by CvPcb (2014-02-24 BZR 4719)-product date = Wed 05 Mar 2014 07:47:37 AM EST
 
 BeginCmp
-TimeStamp = /522FEA6C/530F24DD;
+TimeStamp = /522FEA6C/5251D4C8;
 Reference = ARD1;
 ValeurCmp = ARDUINOPINS;
 IdModule  = BenchBudEE:ARDUINO_SHIELD;
@@ -264,34 +264,6 @@ TimeStamp = /523DF54E/52660B34;
 Reference = D12;
 ValeurCmp = MMBD914-7-F;
 IdModule  = BenchBudEE:Diode_SOT23;
-EndCmp
-
-BeginCmp
-TimeStamp = /522FEADB/5314EE5A;
-Reference = JP1;
-ValeurCmp = JUMPER;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /522FEADB/5314EE6C;
-Reference = JP2;
-ValeurCmp = JUMPER;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /522FEADB/5314EE77;
-Reference = JP3;
-ValeurCmp = JUMPER;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /522FEADB/5314EE82;
-Reference = JP4;
-ValeurCmp = JUMPER;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -778,6 +750,13 @@ IdModule  = Resistors_SMD:Resistor_SMD0805_ReflowWave;
 EndCmp
 
 BeginCmp
+TimeStamp = /522FEADB/53163B41;
+Reference = SP1;
+ValeurCmp = PWR_STAR_POINT;
+IdModule  = BenchBudEE:GND_STAR_POINT;
+EndCmp
+
+BeginCmp
 TimeStamp = /522FEADB/523DFB25;
 Reference = SW1;
 ValeurCmp = Power Switch;
@@ -817,13 +796,6 @@ TimeStamp = /522FEB24/5243899F;
 Reference = TH5;
 ValeurCmp = MINISMDC050F-2;
 IdModule  = SMD_Packages:SM1812;
-EndCmp
-
-BeginCmp
-TimeStamp = /522FEADB/53148E2B;
-Reference = TP1;
-ValeurCmp = CONN_1;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
 EndCmp
 
 BeginCmp
@@ -883,16 +855,16 @@ IdModule  = Power_Integrations:TO-220;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/530F1D30;
+TimeStamp = /523DF54E/525F3FCD;
 Reference = U9;
-ValeurCmp = LM317T;
+ValeurCmp = LM317;
 IdModule  = Power_Integrations:TO-220;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/530F1CBE;
+TimeStamp = /523DF54E/523E0B74;
 Reference = U11;
-ValeurCmp = LM317T;
+ValeurCmp = LM317;
 IdModule  = Power_Integrations:TO-220;
 EndCmp
 
