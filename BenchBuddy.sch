@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 2  date 11/21/2013 11:46:41 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,13 +31,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:BenchBuddy
 LIBS:BenchBuddy-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title "noname.sch"
-Date "13 nov 2013"
+Date "22 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
